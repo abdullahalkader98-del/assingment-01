@@ -194,7 +194,15 @@ nav {
     /* justify-content: space-between; */
     gap: 16px;
     align-items: center;
-    transform: translate(15%, -10%);
+    /* transform: translate(15%, -10%); */
+}
+
+.ami {
+    margin: 0px 120px 0px 120px;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .amra {
@@ -222,30 +230,28 @@ nav {
 
 .all {
     display: flex;
-    width: 1360px;
+    width: 1260px;
     height: 300px;
     gap: 24px;
-    /* padding: 24px 220px 0px 120px; */
+    /* padding: 0px 0px 0px 100px; */
     justify-content: center;
     align-items: center;
-    bo;
+    margin: 0 auto;
 
 }
 
 .card {
-    width: 300px;
-    height: 200px;
+    width: 316.5px;
+    height: 260px;
     /* border: 1px solid #000; */
     border-radius: 8px;
     padding: 24px;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+    box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.08);
     background: rgba(255, 255, 255, 1);
-
-
+    text-align: center;
 }
 
 /* .card h3 {
@@ -261,7 +267,7 @@ nav {
     border-radius: 100%;
     background-size: 160px 160px;
     background-clip: border-box; */
-.card .photo {
+.card .photo-1 {
     width: 60px;
     height: 60px;
     background-color: #F95555;
@@ -270,9 +276,53 @@ nav {
     /* image-rendering: pixelated; */
     /* padding: 14.4px 10.19px 13.96px 13.09px; */
     padding: 16px 16px 13px 16.5px;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
+
+.card .photo-2 {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    background-size: 160px 160px;
+    /* image-rendering: pixelated; */
+    /* padding: 14.4px 10.19px 13.96px 13.09px; */
+    padding: 14.38px 14.07px 13.62px 13.96px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .photo-3 {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    background-size: 160px 160px;
+    /* image-rendering: pixelated; */
+    /* padding: 14.4px 10.19px 13.96px 13.09px; */
+    padding: 13.61px 14.33px 14.39px 13.67px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .photo-4 {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    background-size: 160px 160px;
+    /* image-rendering: pixelated; */
+    /* padding: 14.4px 10.19px 13.96px 13.09px; */
+    padding: 14.36px 14.17px 13.64px 13.83px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .card h3 {
     padding-top: 16px;
@@ -283,13 +333,17 @@ nav {
     font-weight: 600;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .card p {
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 50px;
     color: #627382;
     width: 274px;
     height: 40px;
     line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
