@@ -194,7 +194,7 @@ nav {
     /* justify-content: space-between; */
     gap: 16px;
     align-items: center;
-    /* transform: translate(15%, -10%); */
+    transform: translate(15%, -10%);
 }
 
 .ami {
@@ -359,7 +359,87 @@ nav {
 
 button:hover {
     background-color: #31cd7267;
-} 
-.card:hover{
+}
+
+.card:hover {
     background-color: #31cd7267;
+}
+
+.features {
+    display: flex;
+    gap: 6px;
+
+}
+
+#try {
+    display: flex;
+    padding-top: 70px;
+}
+
+.taratari {
+    padding-top: 102px;
+}
+
+.chance {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.taratari h1 {
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    font-style: bold;
+    /* line-gap-override: 6px; */
+}
+
+.taratari .golmal {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+.boro {
+    padding-top: 40px;
+    /* gap: 16px; */
+}
+
+.because {
+    padding-right: 120px;
+    padding-left: 60px;
+}
+
+.product {
+    background-color: #F7F6F2;
+    max-width: 1260px;
+    max-height: 384px;
+    text-align: center;
+}
+
+.product h2 {
+    padding-top: 80px;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.product p {
+    padding-top: 16px;
+    color: #6e8aa3;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+#danger {
+    padding-top: 2px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
