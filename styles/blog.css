@@ -13,7 +13,7 @@
 
 nav {
     width: 95%;
-    max-width: 1700px;
+    max-width: 1300px;
     max-height: 92px;
     margin: 0 auto;
     /* border: 1px solid black; */
@@ -417,7 +417,7 @@ button:hover {
 .product {
     background-color: #F7F6F2;
     max-width: 1260px;
-    max-height: 384px;
+    max-height: 284px;
     text-align: center;
 }
 
@@ -439,7 +439,92 @@ button:hover {
 }
 
 #danger {
-    padding-top: 2px;
+    margin-top: 80px;
     padding-left: 120px;
     padding-right: 120px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.ses {
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 30px;
+    color: #FAFAFA;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* hr{
+    padding-top: 80px;
+} */
+footer .done {
+    margin-top: 80px;
+    background-color: #001931;
+    width: 100%;
+    height: 290px;
+    /* border: 5px solid #000; */
+}
+
+.ar-koto {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: #FFFFFF;
+}
+
+.hasi {
+    /* width: 40px;
+    height: 40px;
+    background-color: #F95555;
+    border-radius: 100%;
+    /* background-size: 160px 160px; */
+    /* image-rendering: pixelated; */
+    /* padding: 14.4px 10.19px 13.96px 13.09px; */
+    /* padding: 4.12px 4.25px 4.13px 4.25px; */
+    display: flex;
+    gap: 7px;
+}
+
+.hasi .last-1 {
+    width: 40px;
+    height: 40px;
+    background-color: #F95555;
+    border-radius: 100%;
+    /* background-size: 160px 160px; */
+    image-rendering: pixelated;
+    padding: 4.12px 4.25px 4.13px 4.85px;
+}
+
+.hasi .last-2 {
+    width: 40px;
+    height: 40px;
+    background-color: #F95555;
+    border-radius: 100%;
+    /* background-size: 160px 160px; */
+    image-rendering: pixelated;
+    padding: 4.12px 4.25px 4.13px 4.85px;
+
+}
+
+.hasi .last-3 {
+    width: 40px;
+    height: 40px;
+    background-color: #F95555;
+    border-radius: 100%;
+    /* background-size: 160px 160px; */
+    image-rendering: pixelated;
+    padding: 4.12px 4.25px 4.13px 4.85px;
+}
+.action{
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 30px;
+    color: #FAFAFA;
+    padding-left: 80px;
+    padding-right: 80px;
 }
