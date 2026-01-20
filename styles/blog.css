@@ -347,3 +347,19 @@ nav {
     margin: 0 auto;
     text-align: center;
 }
+
+/* .all p :hover {
+    color: #0084fff2;
+    /* background-color:#31cd7267; */
+
+
+/* .all h3 :hover {
+    color: black;
+} */
+
+button:hover {
+    background-color: #31cd7267;
+} 
+.card:hover{
+    background-color: #31cd7267;
+}
